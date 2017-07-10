@@ -1,0 +1,23 @@
+{
+  "name": "starterKitBDD",
+  "version": "1.0.0",
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "karma": "^1.3.0",
+    "mocha": "^3.2.0",
+    "node-gherkin-runner": "^1.0.8"
+  },
+  "scripts": {
+    "test": "mocha src/*.spec.js feature/*.feature.js node_modules/node-gherkin-runner/lib/runner.js -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxaWebCenter/starterKitBDD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AxaWebCenter/starterKitBDD/issues"
+  },
+  "homepage": "https://github.com/AxaWebCenter/starterKitBDD#readme"
+}
